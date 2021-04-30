@@ -1,0 +1,11 @@
+#!/bin/bash
+
+rm -rf \
+    /Applications/buho \
+    /Applications/clip \
+    /Applications/index \
+    /Applications/nota \
+    /Applications/pix \
+    /Applications/shelf \
+    /Applications/station \
+    /Applications/vvave
