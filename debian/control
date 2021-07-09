@@ -1,5 +1,5 @@
 Source: maui-appimages
-Section: misc
+Section: kde
 Priority: optional
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Build-Depends: debhelper (>=9)
@@ -8,9 +8,9 @@ Homepage: http://mauikit.org
 
 
 Package: maui-appimages
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Maui AppImages for NX Desktop
+Description: Maui AppImages for NX Desktop.
  Maui AppImages for:
   - buho
   - clip
@@ -19,5 +19,5 @@ Description: Maui AppImages for NX Desktop
   - pix
   - shelf
   - station
-  - vvave
+  - vvave.
 
