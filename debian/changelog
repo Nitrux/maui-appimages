@@ -1,4 +1,10 @@
-maui-appimages-arm64 (0.0.2)  nitrux; urgency=medium
+maui-appimages-arm64 (0.0.2.1)  nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 09 Jul 2021 14:18:00 -0500
+
+maui-appimages-arm64 (0.0.1)  nitrux; urgency=medium
 
   * Update package.
 

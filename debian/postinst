@@ -9,7 +9,7 @@ set -x
 	printf "%s %s\n" \
 		buho				"https://download.kde.org/stable/maui/buho/1.2.2/buho-stable-v1.2.2-arm64.AppImage" \
 		clip				"https://download.kde.org/stable/maui/clip/1.1.1/clip-stable-v1.1.1-arm64.AppImage" \
-		communicatior		"https://download.kde.org/stable/maui/communicator/1.2.1/communicator-v1.2.1-arm64.AppImage" \
+		communicator		"https://download.kde.org/stable/maui/communicator/1.2.1/communicator-v1.2.1-arm64.AppImage" \
 		index				"https://download.kde.org/stable/maui/index/1.2.2/index-stable-v1.2.2-arm64.AppImage" \
 		nota				"https://download.kde.org/stable/maui/nota/1.2.2/nota-stable-v1.2.2-arm64.AppImage" \
 		pix					"https://download.kde.org/stable/maui/pix/1.2.2/pix-stable-v1.2.2-arm64.AppImage" \
