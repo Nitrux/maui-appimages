@@ -23,4 +23,3 @@ set -x
 }
 
 chmod +x /Applications/*
-
