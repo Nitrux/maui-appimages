@@ -7,15 +7,14 @@ set -x
 
 {
 	printf "%s %s\n" \
-		buho				"https://download.kde.org/stable/maui/buho/1.2.2/buho-stable-v1.2.2-amd64.AppImage" \
-		clip				"https://download.kde.org/stable/maui/clip/1.1.1/clip-stable-v1.1.1-amd64.AppImage" \
-		communicator		"https://download.kde.org/stable/maui/communicator/1.2.1/communicator-v1.2.1-amd64.AppImage" \
-		index				"https://download.kde.org/stable/maui/index/1.2.2/index-stable-v1.2.2-amd64.AppImage" \
-		nota				"https://download.kde.org/stable/maui/nota/1.2.2/nota-stable-v1.2.2-amd64.AppImage" \
-		pix					"https://download.kde.org/stable/maui/pix/1.2.2/pix-stable-v1.2.2-amd64.AppImage" \
-		shelf				"https://download.kde.org/stable/maui/shelf/1.1.1/shelf-stable-v1.1.1-amd64.AppImage" \
-		station				"https://download.kde.org/stable/maui/station/1.2.2/station-stable-v1.2.2-amd64.AppImage" \
-		vvave				"https://download.kde.org/stable/maui/vvave/1.2.2/vvave-stable-v1.2.2-amd64.AppImage"
+		buho				"https://updates.nxos.org/appimages/nightly_amd64_buho-nightly-20220331-git+9f1cee6-amd64.AppImage" \
+		clip				"https://updates.nxos.org/appimages/nightly_amd64_clip-nightly-20220331-git+900dd3d-amd64.AppImage" \
+		index				"https://updates.nxos.org/appimages/nightly_amd64_index-nightly-20220331-git+4540e26-amd64.AppImage" \
+		nota				"https://updates.nxos.org/appimages/nightly_amd64_nota-nightly-20220331-git+752ebb0-amd64.AppImage" \
+		pix					"https://updates.nxos.org/appimages/nightly_amd64_pix-nightly-20220331-git+5c5fc16-amd64.AppImage" \
+		shelf				"https://updates.nxos.org/appimages/nightly_amd64_shelf-nightly-20220331-git+69ac3f8-amd64.AppImage" \
+		station				"https://updates.nxos.org/appimages/nightly_amd64_station-nightly-20220331-git+7638ad3-amd64.AppImage" \
+		vvave				"https://updates.nxos.org/appimages/nightly_amd64_vvave-nightly-20220331-git+10507dc-amd64.AppImage"
 } | {
 	while read name url; do
 		axel -a -n 2 -q -k -U "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" "$url" -o /Applications/$name
