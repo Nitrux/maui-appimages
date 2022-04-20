@@ -1,6 +1,6 @@
-maui-appimages (0.0.4)  nitrux; urgency=medium
+maui-appimages (0.0.5)  nitrux; urgency=medium
 
-  * Update package.
+  * Update debian/control.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 31 Mar 2022 18:07:00 -0500
 

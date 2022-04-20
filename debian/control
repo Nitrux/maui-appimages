@@ -10,6 +10,7 @@ Homepage: https://mauikit.org
 Package: maui-appimages
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: buho, clip, index, nota, pix, shelf, station, vvave
 Description: Maui AppImages for NX Desktop.
  Maui AppImages for:
   - buho
