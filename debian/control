@@ -1,4 +1,4 @@
-Source: maui-appimages
+Source: maui-appimages-git
 Section: kde
 Priority: optional
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
@@ -7,11 +7,11 @@ Standards-Version: 3.9.6
 Homepage: https://mauikit.org
 
 
-Package: maui-appimages
+Package: maui-appimages-git
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: buho, clip, index, nota, pix, shelf, station, vvave
-Description: Maui AppImages for NX Desktop.
+Provides: buho-git, clip-git, index-git, nota-git, pix-git, shelf-git, station-git, vvave-git
+Description: Maui AppImages for Nitrux from Git master.
  Maui AppImages for:
   - buho
   - clip
