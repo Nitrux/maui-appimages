@@ -1,8 +1,14 @@
+maui-appimages-git (0.0.6)  nitrux; urgency=medium
+
+  * Remove file.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 20 Apr 2022 20:07:00 -0500
+
 maui-appimages-git (0.0.5)  nitrux; urgency=medium
 
   * Update debian/control.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 31 Mar 2022 18:07:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 20 Apr 2022 18:47:00 -0500
 
 maui-appimages (0.0.5)  nitrux; urgency=medium
 
