@@ -10,7 +10,7 @@ Homepage: https://mauikit.org
 Package: maui-appimages-git
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: buho-git, clip-git, index-git, nota-git, pix-git, shelf-git, station-git, vvave-git, nx-software-center-git, maui-shell-git
+Provides: buho-git, clip-git, index-git, nota-git, pix-git, shelf-git, station-git, vvave-git, nx-software-center-git, maui-shell-git, sol-git
 Description: Maui AppImages for Nitrux from Git master.
  Maui AppImages for:
   - buho
@@ -20,7 +20,8 @@ Description: Maui AppImages for Nitrux from Git master.
   - pix
   - shelf
   - station
-  - vvave.
+  - vvave
   - nx-software-center
-  - maui-shell.
+  - maui-shell
+  - sol
 
