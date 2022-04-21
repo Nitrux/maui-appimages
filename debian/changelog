@@ -1,3 +1,9 @@
+maui-appimages-git (0.0.8)  nitrux; urgency=medium
+
+  * Add nxsc and maui-shell.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Apr 2022 01:56:00 -0500
+
 maui-appimages-git (0.0.7)  nitrux; urgency=medium
 
   * Update urls.
