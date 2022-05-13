@@ -1,52 +1,58 @@
-maui-appimages-git (0.0.9)  nitrux; urgency=medium
+maui-appimages-git (0.1.0) nitrux; urgency=medium
+
+  * Update urls.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 13 May 2022 17:34:00 -0500
+
+maui-appimages-git (0.0.9) nitrux; urgency=medium
 
   * Add sol (when it's available).
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Apr 2022 01:56:00 -0500
 
-maui-appimages-git (0.0.8)  nitrux; urgency=medium
+maui-appimages-git (0.0.8) nitrux; urgency=medium
 
   * Add nxsc and maui-shell.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Apr 2022 01:56:00 -0500
 
-maui-appimages-git (0.0.7)  nitrux; urgency=medium
+maui-appimages-git (0.0.7) nitrux; urgency=medium
 
   * Update urls.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 20 Apr 2022 23:09:00 -0500
 
-maui-appimages-git (0.0.6)  nitrux; urgency=medium
+maui-appimages-git (0.0.6) nitrux; urgency=medium
 
   * Remove file.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 20 Apr 2022 20:07:00 -0500
 
-maui-appimages-git (0.0.5)  nitrux; urgency=medium
+maui-appimages-git (0.0.5) nitrux; urgency=medium
 
   * Update debian/control, change package name.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 20 Apr 2022 18:47:00 -0500
 
-maui-appimages (0.0.5)  nitrux; urgency=medium
+maui-appimages (0.0.5) nitrux; urgency=medium
 
   * Update debian/control.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Thu, 31 Mar 2022 18:07:00 -0500
 
-maui-appimages (0.0.3)  nitrux; urgency=medium
+maui-appimages (0.0.3) nitrux; urgency=medium
 
   * Update package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Fri, 09 Jul 2021 21:23:00 -0500
 
-maui-appimages (0.0.2)  nitrux; urgency=medium
+maui-appimages (0.0.2) nitrux; urgency=medium
 
   * Update package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Fri, 09 Jul 2021 14:15:00 -0500
 
-maui-appimages (0.0.1)  nitrux; urgency=medium
+maui-appimages (0.0.1) nitrux; urgency=medium
 
   * Create package.
 
