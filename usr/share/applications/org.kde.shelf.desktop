@@ -9,7 +9,7 @@ Type=Application
 Categories=Qt;KDE;Graphics;Office;Viewer;
 MimeType=application/x-pdf;application/pdf;application/x-gzpdf;application/x-bzpdf;application/x-wwf;
 StartupNotify=true
-Icon=shelf
+Icon=maui-shelf
 
 GenericName=Document Viewer
 
