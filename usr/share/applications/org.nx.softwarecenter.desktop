@@ -1,9 +1,18 @@
 [Desktop Entry]
 Name=NX Software Center
-Exec=nx-software-center
-Icon=nx-software-center
-Type=Application
-GenericName=Software Center
-Categories=Qt;KDE;System;
+Comment=AppImage store
+TryExec=/Applications/nx-software-center
+Exec=/Applications/nx-software-center %U
 Keywords=program;software;repository;package;install;remove;update;apps;applications;
-Comment=Software store for AppImages
+Terminal=false
+Type=Application
+Categories=Qt;KDE;System;
+StartupNotify=true
+Icon=nx-software-center
+
+GenericName=App Store
+
+[Desktop Action FirejailProfile]
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/nx-software-center
+Name=Run without sandbox profile
+TryExec=firejail

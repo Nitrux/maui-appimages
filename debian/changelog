@@ -1,3 +1,9 @@
+maui-appimages-git (0.1.1) nitrux; urgency=medium
+
+  * Update launchers.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 13 May 2022 23:34:00 -0500
+
 maui-appimages-git (0.1.0) nitrux; urgency=medium
 
   * Update urls.
