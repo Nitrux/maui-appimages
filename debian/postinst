@@ -12,8 +12,7 @@ set -x
 		shelf				"https://updates.nxos.org/maui-appimages/shelf.AppImage" \
 		station				"https://updates.nxos.org/maui-appimages/station.AppImage" \
 		vvave				"https://updates.nxos.org/maui-appimages/vvave.AppImage" \
-		nx-software-center	"https://github.com/Nitrux/nx-software-center/releases/download/latest/nx-software-center-latest-x86_64.AppImage" \
-		maui-shell			"https://github.com/Nitrux/maui-shell/releases/download/latest/maui-shell-latest-x86_64.AppImage"
+		nx-software-center	"https://github.com/Nitrux/nx-software-center/releases/download/latest/nx-software-center-latest-x86_64.AppImage"
 } | {
 	while read name url; do
 		axel -a -n 10 -q -k -U "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" "$url" -o /Applications/$name
