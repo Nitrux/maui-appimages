@@ -1,4 +1,4 @@
-# Maui AppImages [![Build Status](https://travis-ci.org/Nitrux/maui-appimages.svg?branch=master)](https://travis-ci.org/Nitrux/maui-appimages)
+# Maui AppImages
 
 Maui AppImages included by default in Nitrux.
 
