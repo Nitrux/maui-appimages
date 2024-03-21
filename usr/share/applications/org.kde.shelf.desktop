@@ -12,13 +12,11 @@ Exec=/Applications/shelf %U
 Keywords=pdf;ps;postscript;dvi;xps;djvu;tiff;document;presentation;viewer;shelf;
 Terminal=false
 Type=Application
-GenericName=Software Center
+GenericName=Document Viewer
 Categories=Qt;KDE;Graphics;Office;Viewer;
 StartupNotify=true
 Icon=shelf
 MimeType=application/x-pdf;application/pdf;application/x-gzpdf;application/x-bzpdf;application/x-wwf;
-
-GenericName=Document Viewer
 
 [Desktop Action FirejailProfile]
 Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/shelf

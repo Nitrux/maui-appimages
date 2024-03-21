@@ -1,17 +1,25 @@
+# Copyright 2018-2020 Camilo Higuita <milo.h@aol.com>
+# Copyright 2018-2024 Nitrux Latinoamericana S.C.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
 [Desktop Entry]
 Name=Station
-Comment=Terminal emulator
+Comment=Terminal Emulator
 TryExec=/Applications/station
 Exec=/Applications/station %U
-Keywords=terminal;emulator;
+Keywords=terminal;station;maui;
 Terminal=false
 Type=Application
+GenericName=Software Center
 Categories=Qt;KDE;System;TerminalEmulator;
 StartupNotify=true
-Icon=utilities-terminal
-X-KDE-AuthorizeAction=shell_access
+Icon=station
+MimeType=application/vnd.appimage;application/x-executable;
 
-GenericName=Terminal Emulator
+SingleMainWindow=true
+X-KDE-AuthorizeAction=shell_access
 
 [Desktop Action FirejailProfile]
 Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/station

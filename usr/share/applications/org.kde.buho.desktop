@@ -17,8 +17,6 @@ Categories=Qt;KDE;Utility;TextTools;TextEditor;X-Todo;X-KDE-Utilities-Desktop;
 StartupNotify=true
 Icon=buho
 
-GenericName=Note Taker
-
 [Desktop Action FirejailProfile]
 Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/buho
 Name=Run without sandbox profile

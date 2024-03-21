@@ -1,0 +1,24 @@
+# Copyright 2018-2020 Camilo Higuita <milo.h@aol.com>
+# Copyright 2018-2024 Nitrux Latinoamericana S.C.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
+[Desktop Entry]
+Name=Communicator
+Comment=Save your contacts
+TryExec=/Applications/communicator
+Exec=/Applications/communicator %U
+Keywords=contacts;dialer;maui;
+Terminal=false
+Type=Application
+GenericName=Contacts Manager
+Categories=Qt;KDE;System;
+StartupNotify=true
+Icon=communicator
+MimeType=application/x-communicator;
+
+[Desktop Action FirejailProfile]
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/communicator
+Name=Run without sandbox profile
+TryExec=firejail

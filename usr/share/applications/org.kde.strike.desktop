@@ -5,22 +5,22 @@
 
 
 [Desktop Entry]
-Name=Nota
-Comment=Simple Text Editor
-TryExec=/Applications/nota
-Exec=/Applications/nota %U
-Keywords=text;editor;
+Name=Strike
+Comment=Simple convergent IDE
+TryExec=/Applications/strike
+Exec=/Applications/strike %U
+Keywords=development;software;ide;
 Terminal=false
 Type=Application
-GenericName=Simple Text Editor
-Categories=Qt;KDE;Utility;TextEditor;
+GenericName=Simple IDE
+Categories=Qt;KDE;Development;IDE;
 StartupNotify=true
-Icon=nota
-MimeType=text/plain;
+Icon=strike
+MimeType=text/x-cmake;
 
 SingleMainWindow=true
 
 [Desktop Action FirejailProfile]
-Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/nota
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/strike
 Name=Run without sandbox profile
 TryExec=firejail

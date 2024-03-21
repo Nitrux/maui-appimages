@@ -1,0 +1,24 @@
+# Copyright 2018-2020 Camilo Higuita <milo.h@aol.com>
+# Copyright 2018-2024 Nitrux Latinoamericana S.C.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
+[Desktop Entry]
+Name=Fiery
+Comment=Web browser
+TryExec=/Applications/fiery
+Exec=/Applications/fiery %U
+Keywords=video;player;maui;
+Terminal=false
+Type=Application
+GenericName=Video Player
+Categories=Qt;KDE;Network;WebBrowser;
+StartupNotify=true
+Icon=fiery
+MimeType=text/html;x-scheme-handler/http;x-scheme-handler/https;
+
+[Desktop Action FirejailProfile]
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/fiery
+Name=Run without sandbox profile
+TryExec=firejail
