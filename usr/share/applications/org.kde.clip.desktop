@@ -7,8 +7,8 @@
 [Desktop Entry]
 Name=Clip
 Comment=Play your videos
-TryExec=/Applications/buho
-Exec=/Applications/buho %U
+TryExec=/Applications/clip
+Exec=/Applications/clip %U
 Keywords=video;player;maui;
 Terminal=false
 Type=Application
