@@ -11,13 +11,6 @@ create_directories() {
     else
         echo "Directory already exists: /Applications"
     fi
-
-    if [ ! -d "/etc/skel/.local/bin" ]; then
-        echo "Creating directory: /etc/skel/.local/bin"
-        mkdir -p /etc/skel/.local/bin
-    else
-        echo "Directory already exists: /etc/skel/.local/bin"
-    fi
 }
 
 # Check and create directories if necessary
@@ -26,7 +19,7 @@ create_directories
 # Set User-Agent header
 user_agent="BrightSign/8.2.55.5 (XT1144) Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.12.3 Chrome/69.0.3497.128 Safari/537.36"
 
-# Function to download and install an AppImage
+# Function to download and installan AppImage
 download_appimage() {
     local name="$1"
     local url="$2"
@@ -36,55 +29,63 @@ download_appimage() {
     chmod +x "$destination"
 }
 
-# Download and install appimaged arca
-download_appimage "arca" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install agenda
+# download_appimage "agenda" " "
+# mv /Applications/agenda-* /Applications/agenda
 
-# Download and install appimaged bonsai
-download_appimage "bonsai" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install arca
+# download_appimage "arca" " "
+# mv /Applications/arca-* /Applications/arca
 
-# Download and install appimaged buho
-download_appimage "buho" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install bonsai
+download_appimage "bonsai" " "
+mv /Applications/bonsai-* /Applications/bonsai
 
-# Download and install appimaged clip
-download_appimage "clip" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install buho
+download_appimage "buho" " "
+mv /Applications/buho-* /Applications/buho
 
-# Download and install appimaged fiery
-download_appimage "fiery" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install clip
+download_appimage "clip" " "
+mv /Applications/clip-* /Applications/clip
 
-# Download and install appimaged index
-download_appimage "index" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install communicator
+# download_appimage "communicator" " "
+# mv /Applications/communicator-* /Applications/communicator
 
-# Download and install appimaged nxsc
-download_appimage "nxsc" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install fiery
+download_appimage "fiery" " "
+mv /Applications/fiery-* /Applications/fiery
 
-# Download and install appimaged nota
-download_appimage "nota" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install index
+download_appimage "index" " "
+mv /Applications/index-* /Applications/index
 
-# Download and install appimaged pix
-download_appimage "pix" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install nx-software-center
+download_appimage "nx-software-center" "https://github.com/Nitrux/nx-software-center/releases/download/latest/nx-software-center-latest-x86_64.AppImage"
+mv /Applications/nx-software-center-* /Applications/nx-software-center
 
-# Download and install appimaged shelf
-download_appimage "shelf" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install nota
+download_appimage "nota" " "
+mv /Applications/nota-* /Applications/nota
 
-# Download and install appimaged station
-download_appimage "station" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install pix
+download_appimage "pix" " "
+mv /Applications/pix-* /Applications/pix
 
-# Download and install appimaged strike
-download_appimage "strike" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install shelf
+download_appimage "shelf" " "
+mv /Applications/shelf-* /Applications/shelf
 
-# Download and install appimaged vvave
-download_appimage "vvave" "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
-mv /Applications/firefox-* /Applications/firefox
+# Download and install station
+download_appimage "station" " "
+mv /Applications/station-* /Applications/station
+
+# Download and install strike
+download_appimage "strike" " "
+mv /Applications/strike-* /Applications/strike
+
+# Download and install vvave
+download_appimage "vvave" " "
+mv /Applications/vvave-* /Applications/vvave
 
