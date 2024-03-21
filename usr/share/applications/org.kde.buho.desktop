@@ -1,5 +1,10 @@
+# Copyright 2018-2020 Camilo Higuita <milo.h@aol.com>
+# Copyright 2018-2024 Nitrux Latinoamericana S.C.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
 [Desktop Entry]
-Actions=FirejailProfile;
 Name=Buho
 Comment=Note taking app
 TryExec=/Applications/buho
@@ -7,7 +12,8 @@ Exec=/Applications/buho %U
 Keywords=notes;todo;nextcloud;maui;
 Terminal=false
 Type=Application
-Categories=Qt;KDE;Utility;TextTools;TextEditor;X-ToDo;X-KDE-Utilities-Desktop;
+GenericName=Note Taker
+Categories=Qt;KDE;Utility;TextTools;TextEditor;X-Todo;X-KDE-Utilities-Desktop;
 StartupNotify=true
 Icon=buho
 

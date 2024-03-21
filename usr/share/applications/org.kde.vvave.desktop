@@ -1,19 +1,28 @@
+# Copyright 2018-2020 Camilo Higuita <milo.h@aol.com>
+# Copyright 2018-2024 Nitrux Latinoamericana S.C.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
 [Desktop Entry]
 Name=VVave
-Comment=Audi player
+Comment=Play your music collection
 TryExec=/Applications/vvave
 Exec=/Applications/vvave %U
-Keywords=text;editor;
+Keywords=program;software;audio;player;
 Terminal=false
 Type=Application
+GenericName=Audio Player
 Categories=Qt;Audio;Music;Player;AudioVideo;
-MimeType=application/ogg;application/x-ogg;application/sdp;application/smil;application/x-smil;application/streamingmedia;application/x-streamingmedia;application/vnd.rn-realmedia;application/vnd.rn-realmedia-vbr;audio/aac;audio/x-aac;audio/m4a;audio/x-m4a;audio/mp1;audio/x-mp1;audio/mp2;audio/x-mp2;audio/mp3;audio/x-mp3;audio/mpeg;audio/x-mpeg;audio/mpegurl;audio/x-mpegurl;audio/mpg;audio/x-mpg;audio/rn-mpeg;audio/ogg;audio/scpls;audio/x-scpls;audio/vnd.rn-realaudio;audio/wav;audio/x-pn-windows-pcm;audio/x-realaudio;audio/x-pn-realaudio;audio/x-ms-wma;audio/x-pls;audio/x-wav;audio/x-flac;audio/x-vorbis+ogg;audio/x-shorten;audio/x-ape;audio/x-wavpack;audio/x-tta;audio/AMR;audio/ac3;audio/flac;audio/mp4;
 StartupNotify=true
 Icon=vvave
+MimeType=application/ogg;application/x-ogg;application/sdp;application/smil;application/x-smil;application/streamingmedia;application/x-streamingmedia;application/vnd.rn-realmedia;application/vnd.rn-realmedia-vbr;audio/aac;audio/x-aac;audio/m4a;audio/x-m4a;audio/mp1;audio/x-mp1;audio/mp2;audio/x-mp2;audio/mp3;audio/x-mp3;audio/mpeg;audio/x-mpeg;audio/mpegurl;audio/x-mpegurl;audio/mpg;audio/x-mpg;audio/rn-mpeg;audio/ogg;audio/scpls;audio/x-scpls;audio/vnd.rn-realaudio;audio/wav;audio/x-pn-windows-pcm;audio/x-realaudio;audio/x-pn-realaudio;audio/x-ms-wma;audio/x-pls;audio/x-wav;audio/x-flac;audio/x-vorbis+ogg;audio/x-shorten;audio/x-ape;audio/x-wavpack;audio/x-tta;audio/AMR;audio/ac3;audio/flac;audio/mp4;
+
 
 GenericName=Audio Player
+SingleMainWindow=true
 
 [Desktop Action FirejailProfile]
-Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/nx-software-center
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/vvave
 Name=Run without sandbox profile
 TryExec=firejail

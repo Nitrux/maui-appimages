@@ -1,16 +1,25 @@
+# Copyright 2018-2020 Camilo Higuita <milo.h@aol.com>
+# Copyright 2018-2024 Nitrux Latinoamericana S.C.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+
 [Desktop Entry]
 Name=NX Software Center
-Comment=AppImage store
+Comment=Software store for AppImages
 TryExec=/Applications/nx-software-center
 Exec=/Applications/nx-software-center %U
 Keywords=program;software;repository;package;install;remove;update;apps;applications;
 Terminal=false
 Type=Application
+GenericName=Software Center
 Categories=Qt;KDE;System;
 StartupNotify=true
 Icon=nx-software-center
+MimeType=application/vnd.appimage;application/x-executable;
 
 GenericName=App Store
+SingleMainWindow=true
 
 [Desktop Action FirejailProfile]
 Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /Applications/nx-software-center
