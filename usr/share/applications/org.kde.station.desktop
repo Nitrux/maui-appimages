@@ -12,10 +12,10 @@ Exec=/Applications/station %U
 Keywords=terminal;station;maui;
 Terminal=false
 Type=Application
-GenericName=Software Center
+GenericName=Terminal Emulator
 Categories=Qt;KDE;System;TerminalEmulator;
 StartupNotify=true
-Icon=station
+Icon=maui-station
 MimeType=application/vnd.appimage;application/x-executable;
 
 SingleMainWindow=true

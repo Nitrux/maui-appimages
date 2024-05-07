@@ -15,7 +15,7 @@ Type=Application
 GenericName=Document Viewer
 Categories=Qt;KDE;Graphics;Office;Viewer;
 StartupNotify=true
-Icon=shelf
+Icon=maui-shelf
 MimeType=application/x-pdf;application/pdf;application/x-gzpdf;application/x-bzpdf;application/x-wwf;
 
 [Desktop Action FirejailProfile]
