@@ -1,3 +1,9 @@
+maui-appimages-git (0.1.6) nitrux; urgency=medium
+
+  * Fix download script.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 07 May 2024 05:07:00 -0500
+
 maui-appimages-git (0.1.5) nitrux; urgency=medium
 
   * Remove launchers.
