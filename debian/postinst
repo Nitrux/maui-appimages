@@ -31,11 +31,9 @@ download_appimage() {
 
 # Download and install agenda
 # download_appimage "agenda" " "
-# mv /Applications/agenda-* /Applications/agenda
 
 # Download and install arca
 # download_appimage "arca" " "
-# mv /Applications/arca-* /Applications/arca
 
 # Download and install bonsai
 download_appimage "bonsai" "https://download.kde.org/stable/maui/bonsai/1.1.3/bonsai-stable-v1.1.3-git+2cfadec-amd64.AppImage"
