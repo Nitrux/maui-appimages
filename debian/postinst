@@ -36,13 +36,13 @@ download_appimage() {
 # download_appimage "arca" " "
 
 # Download and install bonsai
-download_appimage "bonsai" "https://download.kde.org/stable/maui/bonsai/1.1.3/bonsai-stable-v1.1.3-git+2cfadec-amd64.AppImage"
+# download_appimage "bonsai" "https://download.kde.org/stable/maui/bonsai/1.1.3/bonsai-stable-v1.1.3-git+2cfadec-amd64.AppImage"
 
 # Download and install buho
-download_appimage "buho" "https://download.kde.org/stable/maui/buho/3.1.0/buho-stable-v3.1.0-git+d1a4550-amd64.AppImage"
+# download_appimage "buho" "https://download.kde.org/stable/maui/buho/3.1.0/buho-stable-v3.1.0-git+d1a4550-amd64.AppImage"
 
 # Download and install clip
-download_appimage "clip" "https://download.kde.org/stable/maui/clip/3.1.0/clip-stable-v3.1.0-git+fdb401c-amd64.AppImage"
+# download_appimage "clip" "https://download.kde.org/stable/maui/clip/3.1.0/clip-stable-v3.1.0-git+fdb401c-amd64.AppImage"
 
 # Download and install communicator
 # download_appimage "communicator" " "
@@ -53,23 +53,20 @@ download_appimage "clip" "https://download.kde.org/stable/maui/clip/3.1.0/clip-s
 # Download and install index
 # download_appimage "index" "https://download.kde.org/stable/maui/index/3.1.0/index-stable-v3.1.0-git+f960148-amd64.AppImage"
 
-# Download and install nx-software-center
-download_appimage "nx-software-center" "https://github.com/Nitrux/nx-software-center/releases/download/latest/nx-software-center-latest-x86_64.AppImage"
-
 # Download and install nota
-download_appimage "nota" "https://download.kde.org/stable/maui/nota/3.1.0/nota-stable-v3.1.0-git+019f694-amd64.AppImage"
+# download_appimage "nota" "https://download.kde.org/stable/maui/nota/3.1.0/nota-stable-v3.1.0-git+019f694-amd64.AppImage"
 
 # Download and install pix
-download_appimage "pix" "https://download.kde.org/stable/maui/pix/3.1.0/pix-stable-v3.1.0-git+33c6c86-amd64.AppImage"
+# download_appimage "pix" "https://download.kde.org/stable/maui/pix/3.1.0/pix-stable-v3.1.0-git+33c6c86-amd64.AppImage"
 
 # Download and install shelf
-download_appimage "shelf" "https://download.kde.org/stable/maui/shelf/3.1.0/shelf-stable-v3.1.0-git+e153041-amd64.AppImage"
+# download_appimage "shelf" "https://download.kde.org/stable/maui/shelf/3.1.0/shelf-stable-v3.1.0-git+e153041-amd64.AppImage"
 
 # Download and install station
 # download_appimage "station" "https://download.kde.org/stable/maui/station/3.1.0/station-stable-v3.1.0-git+4a7e5c0-amd64.AppImage"
 
 # Download and install strike
-download_appimage "strike" "https://download.kde.org/stable/maui/strike/1.1.3/strike-stable-v1.1.3-git+c05b1dc-amd64.AppImage"
+# download_appimage "strike" "https://download.kde.org/stable/maui/strike/1.1.3/strike-stable-v1.1.3-git+c05b1dc-amd64.AppImage"
 
 # Download and install vvave
-download_appimage "vvave" "https://download.kde.org/stable/maui/vvave/3.1.0/vvave-stable-v3.1.0-git+8147565-amd64.AppImage"
+# download_appimage "vvave" "https://download.kde.org/stable/maui/vvave/3.1.0/vvave-stable-v3.1.0-git+8147565-amd64.AppImage"

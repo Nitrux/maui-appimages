@@ -1,3 +1,9 @@
+maui-appimages-git (0.2.0) nitrux; urgency=medium
+
+  * Package deprecation notice.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 28 Feb 2025 20:52:00 -0500
+
 maui-appimages-git (0.1.9) nitrux; urgency=medium
 
   * Do not include Index and Station.
